@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Feriados de Uruguay 2025</title>
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9; /* Fondo gris claro */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #333;
+        }
+
+        /* Posiciona el logo en la esquina superior izquierda sin afectar el contenido */
+        .logo-container {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        .logo {
+            width: 250px; /* Tamaño más grande del logo */
+            height: auto;
+        }
+
+        /* Contenedor principal */
+        .container {
+            width: 100%;
+            max-width: 800px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px; /* Espacio estándar */
+        }
+
+        /* Estilo del título */
+        h1 {
+            font-size: 2.2em;
+            font-weight: bold;
+            color: #007bbd; /* Celeste apagado */
+            margin-bottom: 0.8em;
+            text-align: center;
+        }
+
+        /* Estilos de la tabla */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 15px 10px;
+            border: 1px solid #eaeaea;
+            text-align: left;
+        }
+
+        th {
+            background-color: #007bbd; /* Celeste apagado */
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f3f8fc; /* Celeste muy claro */
+        }
+
+        tr:hover {
+            background-color: #e6f2fa; /* Efecto hover suave */
+        }
+    </style>
+</head>
+<body>
+    <!-- Contenedor del logo en la esquina superior izquierda -->
+    <div class="logo-container">
+        <img src="images/logo.png" alt="Logo de la página" class="logo">
+    </div>
+
+    <div class="container">
+        <!-- Título de la página -->
+        <h1>Feriados de Uruguay 2025</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Fecha</th>
+                    <th>Motivo</th>
+                    <th>Laborable</th>
+                </tr>
+            </thead>
+            <tbody id="holiday-list">
+                <tr>
+                    <td>1 de enero</td>
+                    <td>Año Nuevo</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>6 de enero</td>
+                    <td>Día de Reyes</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td>3 de marzo</td>
+                    <td>Carnaval</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td>4 de marzo</td>
+                    <td>Carnaval</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td>14 al 20 de abril</td>
+                    <td>Semana de Turismo</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td>19 de abril</td>
+                    <td>Desembarco de los Treinta y Tres Orientales</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td>1 de mayo</td>
+                    <td>Día de los Trabajadores</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>18 de mayo</td>
+                    <td>Batalla de las Piedras</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td>19 de junio</td>
+                    <td>Natalicio de Artigas</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td>18 de julio</td>
+                    <td>Jura de la Constitución</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>25 de agosto</td>
+                    <td>Declaratoria de la Independencia</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>12 de octubre</td>
+                    <td>Día de la Raza</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td>2 de noviembre</td>
+                    <td>Día de los Difuntos</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td>25 de diciembre</td>
+                    <td>Navidad (Fiesta de la Familia)</td>
+                    <td>No</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
